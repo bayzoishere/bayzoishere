@@ -4,7 +4,7 @@
       <stop stop-color="#05080D"/>
       <stop offset="1" stop-color="#0A1524"/>
     </linearGradient>
-    <linearGradient id="acc" x1="742" y1="0" x2="1120" y2="0" gradientUnits="userSpaceOnUse">
+    <linearGradient id="acc" x1="742" y1="0" x2="1110" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#39FF14"/>
       <stop offset="1" stop-color="#00E5FF"/>
     </linearGradient>
@@ -24,29 +24,29 @@
   <rect width="1200" height="300" fill="url(#grid)" opacity="0.7"/>
 
   <!-- terminal window -->
-  <rect x="56" y="46" width="560" height="208" rx="14" fill="#080E17" stroke="#17324A"/>
-  <path d="M56 84 H616" stroke="#17324A" stroke-width="1"/>
+  <rect x="56" y="46" width="470" height="208" rx="14" fill="#080E17" stroke="#17324A"/>
+  <path d="M56 84 H526" stroke="#17324A" stroke-width="1"/>
   <circle cx="86" cy="65" r="7" fill="#FF5F56"/>
   <circle cx="110" cy="65" r="7" fill="#FFBD2E"/>
   <circle cx="134" cy="65" r="7" fill="#27C93F"/>
-  <text x="590" y="70" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="13" fill="#3D5A75" text-anchor="end">bash</text>
+  <text x="500" y="70" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="13" fill="#3D5A75" text-anchor="end">bash</text>
 
-  <text x="86" y="122" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#39FF14">$ whoami</text>
-  <text x="196" y="122" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#E6EDF3">bayzo</text>
+  <text x="86" y="124" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#39FF14">$ whoami</text>
+  <text x="190" y="124" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#E6EDF3">bayzo</text>
 
-  <text x="86" y="158" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#39FF14">$ cat focus.txt</text>
-  <text x="86" y="188" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="15" fill="#00E5FF">mint snipers | whitelist pipelines</text>
+  <text x="86" y="162" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#39FF14">$ cat focus.txt</text>
+  <text x="86" y="194" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="15" fill="#00E5FF">mint snipers | whitelist pipelines | uptime</text>
 
-  <text x="86" y="224" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#39FF14">$ status</text>
-  <text x="196" y="224" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#27C93F">shipping</text>
-  <rect x="300" y="211" width="10" height="17" fill="#39FF14"/>
+  <text x="86" y="232" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#39FF14">$ status</text>
+  <text x="190" y="232" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#27C93F">shipping</text>
+  <rect x="284" y="219" width="10" height="17" fill="#39FF14"/>
 
   <!-- wordmark -->
   <text x="742" y="152" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-weight="700" font-size="84" letter-spacing="1" fill="url(#acc)" filter="url(#glow)">BAYZO</text>
   <text x="746" y="190" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="15" letter-spacing="5.5" fill="#5B7A96">ON-CHAIN AUTOMATION</text>
 
   <!-- accents -->
-  <path d="M742 108 H1120" stroke="#17324A" stroke-width="1"/>
-  <path d="M742 220 H1000" stroke="#17324A" stroke-width="1"/>
-  <path d="M742 108 V220" stroke="#39FF14" stroke-width="2"/>
+  <path d="M706 106 H1110" stroke="#17324A" stroke-width="1"/>
+  <path d="M706 222 H1000" stroke="#17324A" stroke-width="1"/>
+  <path d="M706 106 V222" stroke="#39FF14" stroke-width="2"/>
 </svg>
