@@ -8,19 +8,18 @@
   </a>
 </div>
 
-<br />
-
 <div align="center">
 
 **On-chain automation** from Indonesia 🇮🇩 — I build the scripts, bots and
 infrastructure that show up on time to a launch, then keep running long after
 I close the laptop.
 
-<a href="https://github.com/bayzoishere?tab=repositories"><img src="https://img.shields.io/badge/repositories-0B1220?style=for-the-badge&logo=github&logoColor=39FF14" alt="repositories" /></a>
-<a href="https://github.com/bayzoishere/rentoids-sniper"><img src="https://img.shields.io/badge/mint%20sniper-0B1220?style=for-the-badge&logo=target&logoColor=39FF14" alt="mint sniper" /></a>
-<a href="https://x.com/bayzowashere"><img src="https://img.shields.io/badge/X-0B1220?style=for-the-badge&logo=x&logoColor=39FF14" alt="x" /></a>
-<img src="https://komarev.com/ghpvc/?username=bayzoishere&style=for-the-badge&color=0B1220&label=visitors" alt="visitors" />
+</div>
 
+<div align="center">
+  <a href="https://github.com/bayzoishere?tab=repositories"><img src="https://img.shields.io/badge/repositories-0B1220?style=for-the-badge&logo=github&logoColor=39FF14" alt="repositories" /></a>
+  <a href="https://x.com/bayzowashere"><img src="https://img.shields.io/badge/X-0B1220?style=for-the-badge&logo=x&logoColor=39FF14" alt="x" /></a>
+  <img src="https://komarev.com/ghpvc/?username=bayzoishere&style=for-the-badge&color=0B1220&label=visitors" alt="visitors" />
 </div>
 
 <br />
@@ -55,16 +54,24 @@ happen on a clock.
 Phase-locked snipers that pre-warm nonces, gas and calldata before the sale
 opens, then fire one raw transaction to every RPC that will take it.
 
+</td>
+<td width="50%" valign="top">
+
 **Whitelist automation**
 Resume-safe pipelines that keep an auditable state file, rotate proxies per
 wallet, and never lie about what got submitted.
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 **DePIN node agents**
 Data labelling, prediction-market and validation bots — long-lived agents
 with keepalive, backoff and alerting.
+
+</td>
+<td width="50%" valign="top">
 
 **On-chain tooling**
 Universal read/execute kits per chain: scan a contract, estimate the real
@@ -100,14 +107,14 @@ gas, send with a cap that actually holds.
 
 <br />
 
-## Contribution snake
+## Activity
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bayzoishere/bayzoishere/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bayzoishere/bayzoishere/output/github-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/bayzoishere/bayzoishere/output/github-snake-dark.svg" width="100%" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/bayzoishere/bayzoishere/output/github-snake-dark.svg" width="72%" />
 </picture>
 
 </div>
@@ -119,5 +126,5 @@ gas, send with a cap that actually holds.
 </div>
 
 <div align="center">
-<sub>☕ built with coffee and curiosity · <b>bayzoishere</b></sub>
+<sub>☕ built with coffee and curiosity</sub>
 </div>

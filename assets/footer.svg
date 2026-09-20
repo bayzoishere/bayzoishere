@@ -5,22 +5,21 @@
       <stop offset="0.5" stop-color="#39FF14"/>
       <stop offset="1" stop-color="#0A1524" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="shim" x1="0" y1="0" x2="160" y2="0" gradientUnits="userSpaceOnUse">
+    <linearGradient id="shim" x1="0" y1="0" x2="180" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#39FF14" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#E6FFF0" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#E6FFF0" stop-opacity="0.9"/>
       <stop offset="1" stop-color="#39FF14" stop-opacity="0"/>
     </linearGradient>
     <mask id="shimMask">
       <rect x="0" y="0" width="1200" height="78" fill="black"/>
-      <rect x="-160" y="18" width="160" height="3" fill="white">
-        <animate attributeName="x" from="-160" to="1200" dur="4.5s" repeatCount="indefinite"/>
+      <rect x="-180" y="18" width="180" height="3" fill="white">
+        <animate attributeName="x" from="-180" to="1200" dur="4.5s" repeatCount="indefinite"/>
       </rect>
     </mask>
   </defs>
 
-  <path d="M0 20 H1200" stroke="url(#line)" stroke-width="1.5"/>
+  <path d="M0 22 H1200" stroke="url(#line)" stroke-width="1.5"/>
+  <rect x="0" y="20" width="1200" height="3" fill="url(#shim)" mask="url(#shimMask)"/>
 
-  <rect x="0" y="18" width="1200" height="3" fill="url(#shim)" mask="url(#shimMask)"/>
-
-  <text x="600" y="52" text-anchor="middle" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="14" fill="#3D5A75">built with coffee, curiosity and too many retries</text>
+  <text x="600" y="56" text-anchor="middle" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="15" letter-spacing="3" fill="#3D5A75">BAYZOIS<tspan fill="#39FF14">HERE</tspan></text>
 </svg>

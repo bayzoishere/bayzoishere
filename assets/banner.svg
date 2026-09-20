@@ -24,8 +24,8 @@
       </feMerge>
     </filter>
     <clipPath id="focusClip">
-      <rect x="86" y="176" height="24" width="400">
-        <animate attributeName="width" from="0" to="400" dur="1.6s" begin="0.6s" fill="freeze"/>
+      <rect x="86" y="177" height="26" width="372">
+        <animate attributeName="width" from="0" to="372" dur="1.7s" begin="0.6s" fill="freeze"/>
       </rect>
     </clipPath>
   </defs>
@@ -49,9 +49,9 @@
   <text x="86" y="124" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#39FF14">$ whoami</text>
   <text x="190" y="124" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#E6EDF3">bayzo</text>
 
-  <text x="86" y="162" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#39FF14">$ cat focus.txt</text>
+  <text x="86" y="163" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#39FF14">$ cat focus.txt</text>
   <g clip-path="url(#focusClip)">
-    <text x="86" y="194" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="15" fill="#00E5FF">mint snipers | whitelist pipelines | uptime</text>
+    <text x="86" y="196" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#00E5FF">mint snipers | whitelist pipelines</text>
   </g>
 
   <text x="86" y="232" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#39FF14">$ status</text>
