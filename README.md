@@ -83,20 +83,6 @@ gas, send with a cap that actually holds.
 
 <br />
 
-## Selected work
-
-| project | what it does |
-|:--|:--|
-| [ardinals-bot](https://github.com/bayzoishere/ardinals-bot) | Ordinals grinder — the one people actually clone |
-| [rentoids-sniper](https://github.com/bayzoishere/rentoids-sniper) | Phase-lock free-mint sniper — a framework for races decided in milliseconds |
-| [rpgcash](https://github.com/bayzoishere/rpgcash) | Quest + SIWE farming bots for a Summoning Rite |
-| [orvohoods](https://github.com/bayzoishere/orvohoods) | Whitelist cascade bot — invite-code propagation across a wallet pool |
-| [woddie](https://github.com/bayzoishere/woddie) | NFT-gated whitelist claim — transfer, hold, claim orchestration |
-| [stonkswar](https://github.com/bayzoishere/stonkswar) | EIP-712 voucher mint — parallel blast with prepped calldata |
-| [mining-bot](https://github.com/bayzoishere/mining-bot) · [predict-bot](https://github.com/bayzoishere/predict-bot) · [validator-bot](https://github.com/bayzoishere/validator-bot) | DePIN node agents — data labelling, prediction markets, validation |
-
-<br />
-
 ## Daily drivers
 
 <div align="center">
