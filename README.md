@@ -10,9 +10,10 @@
 
 <div align="center">
 
-**On-chain automation** from Indonesia 🇮🇩 — I build the scripts, bots and
-infrastructure that show up on time to a launch, then keep running long after
-I close the laptop.
+**On-chain automation** from Indonesia 🇮🇩
+
+I build the scripts, bots and infrastructure all with agents, then keep running
+long after I close the laptop.
 
 </div>
 
