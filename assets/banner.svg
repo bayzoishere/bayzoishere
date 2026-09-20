@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="bayzoishere — on-chain automation">
+  <defs>
+    <linearGradient id="bgg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05080D"/>
+      <stop offset="1" stop-color="#0A1524"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="760" y1="0" x2="1130" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39FF14"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" stroke="#0F2233" stroke-width="1" fill="none"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgg)"/>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.7"/>
+
+  <!-- terminal window -->
+  <rect x="56" y="46" width="634" height="208" rx="14" fill="#080E17" stroke="#17324A"/>
+  <path d="M56 84 H690" stroke="#17324A" stroke-width="1"/>
+  <circle cx="86" cy="65" r="7" fill="#FF5F56"/>
+  <circle cx="110" cy="65" r="7" fill="#FFBD2E"/>
+  <circle cx="134" cy="65" r="7" fill="#27C93F"/>
+  <text x="664" y="70" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="13" fill="#3D5A75" text-anchor="end">bash</text>
+
+  <text x="86" y="122" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#39FF14">$ whoami</text>
+  <text x="206" y="122" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#E6EDF3">bayzo</text>
+
+  <text x="86" y="158" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#39FF14">$ cat focus.txt</text>
+  <text x="86" y="188" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="16" fill="#00E5FF">mint snipers | whitelist pipelines | uptime</text>
+
+  <text x="86" y="224" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#39FF14">$ status</text>
+  <text x="196" y="224" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="17" fill="#27C93F">shipping</text>
+  <rect x="300" y="211" width="10" height="17" fill="#39FF14"/>
+
+  <!-- wordmark -->
+  <text x="772" y="152" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-weight="700" font-size="84" letter-spacing="1" fill="url(#acc)" filter="url(#glow)">BAYZO</text>
+  <text x="776" y="190" font-family="JetBrains Mono,SFMono-Regular,Consolas,monospace" font-size="15" letter-spacing="5.5" fill="#5B7A96">ON-CHAIN AUTOMATION</text>
+
+  <!-- accents -->
+  <path d="M772 108 H1130" stroke="#17324A" stroke-width="1"/>
+  <path d="M772 218 H1000" stroke="#17324A" stroke-width="1"/>
+  <path d="M772 108 V218" stroke="#39FF14" stroke-width="2"/>
+</svg>
