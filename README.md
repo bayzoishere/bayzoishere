@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="assets/banner.svg" width="100%" alt="bayzo — on-chain automation" />
+  <img src="assets/banner.png" width="100%" alt="bayzo — on-chain automation" />
 </div>
 
 <div align="center">
   <a href="https://github.com/bayzoishere">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=39FF14&center=true&vCenter=true&width=660&lines=on-chain+automation+%C2%B7+web3+tooling;mint+snipers+%C2%B7+whitelist+pipelines;infrastructure+that+does+not+sleep" alt="" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=FF2E4C&center=true&vCenter=true&width=660&lines=on-chain+automation+%C2%B7+web3+tooling;mint+snipers+%C2%B7+whitelist+pipelines;infrastructure+that+does+not+sleep" alt="" />
   </a>
 </div>
 
@@ -18,8 +18,8 @@ long after I close the laptop.
 </div>
 
 <div align="center">
-  <a href="https://github.com/bayzoishere?tab=repositories"><img src="https://img.shields.io/badge/repositories-0B1220?style=for-the-badge&logo=github&logoColor=39FF14" alt="repositories" /></a>
-  <a href="https://x.com/bayzowashere"><img src="https://img.shields.io/badge/X-0B1220?style=for-the-badge&logo=x&logoColor=39FF14" alt="x" /></a>
+  <a href="https://github.com/bayzoishere?tab=repositories"><img src="https://img.shields.io/badge/repositories-0B1220?style=for-the-badge&logo=github&logoColor=FF2E4C" alt="repositories" /></a>
+  <a href="https://x.com/bayzowashere"><img src="https://img.shields.io/badge/X-0B1220?style=for-the-badge&logo=x&logoColor=FF2E4C" alt="x" /></a>
   <img src="https://komarev.com/ghpvc/?username=bayzoishere&style=for-the-badge&color=0B1220&label=visitors" alt="visitors" />
 </div>
 
@@ -109,7 +109,7 @@ gas, send with a cap that actually holds.
 <br />
 
 <div align="center">
-  <img src="assets/footer.svg" width="100%" alt="" />
+  <img src="assets/footer.png" width="100%" alt="" />
 </div>
 
 <div align="center">
