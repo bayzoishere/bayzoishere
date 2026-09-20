@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://github.com/bayzoishere">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=39FF14&center=true&vCenter=true&width=640&lines=on-chain+automation+%C2%B7+web3+tooling;mint+snipers+%C2%B7+whitelist+pipelines;infrastructure+that+does+not+sleep" alt="" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=39FF14&center=true&vCenter=true&width=660&lines=on-chain+automation+%C2%B7+web3+tooling;mint+snipers+%C2%B7+whitelist+pipelines;infrastructure+that+does+not+sleep" alt="" />
   </a>
 </div>
 
@@ -12,14 +12,36 @@
 
 <div align="center">
 
-**On-chain automation.** I build the scripts, bots and infrastructure that show up on
-time to a launch — and keep running long after I close the laptop.
+**On-chain automation** from Indonesia 🇮🇩 — I build the scripts, bots and
+infrastructure that show up on time to a launch, then keep running long after
+I close the laptop.
 
 <a href="https://github.com/bayzoishere?tab=repositories"><img src="https://img.shields.io/badge/repositories-0B1220?style=for-the-badge&logo=github&logoColor=39FF14" alt="repositories" /></a>
+<a href="https://github.com/bayzoishere/rentoids-sniper"><img src="https://img.shields.io/badge/mint%20sniper-0B1220?style=for-the-badge&logo=target&logoColor=39FF14" alt="mint sniper" /></a>
 <a href="https://x.com/bayzowashere"><img src="https://img.shields.io/badge/X-0B1220?style=for-the-badge&logo=x&logoColor=39FF14" alt="x" /></a>
 <img src="https://komarev.com/ghpvc/?username=bayzoishere&style=for-the-badge&color=0B1220&label=visitors" alt="visitors" />
 
 </div>
+
+<br />
+
+## The ops
+
+Three jobs, one operator. Every script here exists because something had to
+happen on a clock.
+
+<div align="center">
+
+| | op | what it does |
+|:--:|:--|:--|
+| ⚡ | **Mint execution** | Pre-signed transactions and multi-RPC broadcast — the race is won before the window opens, not after |
+| 🎯 | **Whitelist pipelines** | Mass apply across a wallet pool with sticky-proxy discipline and honest state tracking — no double submits, no silent failures |
+| 🛰️ | **Keepalive &amp; monitoring** | Long-running bots and node agents that survive restarts, rate limits, and 3am |
+
+</div>
+
+> The rule everywhere: **verify on-chain, never assume.** Gas is a measured
+> number, not a guess.
 
 <br />
 
@@ -29,30 +51,28 @@ time to a launch — and keep running long after I close the laptop.
 <tr>
 <td width="50%" valign="top">
 
-**Mint execution**
-Pre-signed transactions and multi-RPC broadcast, so the race is won on
-scheduling rather than on retries.
+**Mint &amp; race execution**
+Phase-locked snipers that pre-warm nonces, gas and calldata before the sale
+opens, then fire one raw transaction to every RPC that will take it.
 
 **Whitelist automation**
-Mass-apply pipelines with sticky-proxy discipline and honest state
-tracking — no double submissions, no silent failures.
+Resume-safe pipelines that keep an auditable state file, rotate proxies per
+wallet, and never lie about what got submitted.
 
 </td>
 <td width="50%" valign="top">
 
-**Monitoring &amp; keepalive**
-Long-running bots that survive restarts, rate limits, and 3am.
+**DePIN node agents**
+Data labelling, prediction-market and validation bots — long-lived agents
+with keepalive, backoff and alerting.
 
 **On-chain tooling**
-Universal read/execute kits per chain: scan a contract, estimate real
+Universal read/execute kits per chain: scan a contract, estimate the real
 gas, send with a cap that actually holds.
 
 </td>
 </tr>
 </table>
-
-> The rule everywhere: **verify on-chain, never assume.** Gas is a measured
-> number, not a guess.
 
 <br />
 
@@ -60,10 +80,11 @@ gas, send with a cap that actually holds.
 
 | project | what it does |
 |:--|:--|
-| [rentoids-sniper](https://github.com/bayzoishere/rentoids-sniper) | Phase-lock free-mint sniper — a framework for races that are decided in milliseconds |
+| [ardinals-bot](https://github.com/bayzoishere/ardinals-bot) | Ordinals grinder — the one people actually clone |
+| [rentoids-sniper](https://github.com/bayzoishere/rentoids-sniper) | Phase-lock free-mint sniper — a framework for races decided in milliseconds |
+| [rpgcash](https://github.com/bayzoishere/rpgcash) | Quest + SIWE farming bots for a Summoning Rite |
 | [orvohoods](https://github.com/bayzoishere/orvohoods) | Whitelist cascade bot — invite-code propagation across a wallet pool |
 | [woddie](https://github.com/bayzoishere/woddie) | NFT-gated whitelist claim — transfer, hold, claim orchestration |
-| [rpgcash](https://github.com/bayzoishere/rpgcash) | Quest + SIWE farming bots for a Summoning Rite |
 | [stonkswar](https://github.com/bayzoishere/stonkswar) | EIP-712 voucher mint — parallel blast with prepped calldata |
 | [mining-bot](https://github.com/bayzoishere/mining-bot) · [predict-bot](https://github.com/bayzoishere/predict-bot) · [validator-bot](https://github.com/bayzoishere/validator-bot) | DePIN node agents — data labelling, prediction markets, validation |
 
@@ -79,7 +100,7 @@ gas, send with a cap that actually holds.
 
 <br />
 
-## Activity
+## Contribution snake
 
 <div align="center">
 
@@ -95,4 +116,8 @@ gas, send with a cap that actually holds.
 
 <div align="center">
   <img src="assets/footer.svg" width="100%" alt="" />
+</div>
+
+<div align="center">
+<sub>☕ built with coffee and curiosity · <b>bayzoishere</b></sub>
 </div>
