@@ -24,8 +24,8 @@
       </feMerge>
     </filter>
     <clipPath id="focusClip">
-      <rect x="80" y="172" height="24" width="340">
-        <animate attributeName="width" from="0" to="340" dur="1.6s" begin="0.6s" fill="freeze"/>
+      <rect x="86" y="176" height="24" width="400">
+        <animate attributeName="width" from="0" to="400" dur="1.6s" begin="0.6s" fill="freeze"/>
       </rect>
     </clipPath>
   </defs>
